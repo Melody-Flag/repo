@@ -7,7 +7,7 @@ You can append the following content to `/etc/pacman.conf`.
 ```conf
 [melody-flag]
 SigLevel = Optional TrustedOnly
-Server = https://file.mmf.moe/repo
+Server = https://file.mmf.moe/repo/$arch
 ```
 
 ### Import unofficial key
@@ -15,6 +15,8 @@ In order to use this repo, you must import [yesterday17.asc](yesterday17.asc). Y
 
 ```bash
 sudo pacman-key --add /path/to/yesterday17.asc
+pacman-key --finger 37425538284357DE8FA65CEDE7AAA31E332F889C
+pacman-key --lsign-key 37425538284357DE8FA65CEDE7AAA31E332F889C
 ```
 
 ### Packages
