@@ -1,7 +1,7 @@
 pkgbase = jlu-http-proxy
 	pkgdesc = HTTP Forward proxy for vpns.jlu.edu.cn
-	pkgver = 1.0.2
-	pkgrel = 3
+	pkgver = 1.0.3
+	pkgrel = 4
 	url = https://github.com/Yesterday17/jlu-http-proxy
 	arch = i686
 	arch = x86_64

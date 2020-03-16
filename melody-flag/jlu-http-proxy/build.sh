@@ -7,6 +7,7 @@ function clean() {
     rm -rf ./src
 }
 
+makepkg --printsrcinfo > .SRCINFO
 makepkg --sign -f 
 mv ./*.tar.xz ../../packages/
 mv ./*.sig ../../packages/
