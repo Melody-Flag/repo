@@ -7,7 +7,7 @@ You can append the following content to `/etc/pacman.conf`.
 ```conf
 [melody-flag]
 SigLevel = Optional TrustedOnly
-Server = https://file.mmf.moe/repo/$arch
+Server = http://repo.mmf.moe/$arch
 ```
 
 ### Import unofficial key
